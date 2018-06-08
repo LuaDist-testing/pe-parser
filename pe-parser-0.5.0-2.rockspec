@@ -1,7 +1,7 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "pe-parser"
-version = "0.5.0-1"
+version = "0.5.0-2"
 
 description = {
    summary = "Portable Executable parser",
@@ -19,7 +19,7 @@ dependencies = {
 
 -- LuaDist source
 source = {
-  tag = "0.5.0-1",
+  tag = "0.5.0-2",
   url = "git://github.com/LuaDist-testing/pe-parser.git"
 }
 -- Original source
@@ -33,7 +33,7 @@ build = {
    modules = {
       ["pe-parser"] = "src/pe-parser.lua"
    },
-   copy_directories = { "doc" },
+   copy_directories = { "docs" },
    install = {
       bin = {
          ["pe-parser"]   = "bin/pe-parser.lua",
